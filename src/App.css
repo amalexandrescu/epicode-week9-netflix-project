@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: black !important;
+}
+
+#netflix-logo {
+  height: 48px;
+  vertical-align: middle;
+}
+
+.dropdown-position {
+  position: absolute;
+  left: -90px;
+}
+
+.genre-details {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.buttons-from-presentation-content {
+  border-radius: 0 !important;
+}
+
+.movie-row {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.movie-cover {
+  width: 99%;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
+#avatar {
+  height: 36px;
+}
+
+.test {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+}
