@@ -14,6 +14,11 @@ import netflixLogo from "../assets/netflix_logo.png";
 import accountPhoto from "../assets/avatar.png";
 
 const CustomNavbar = () => {
+  let dropDownClicked = false;
+  const showDropDownList = () => {
+    dropDownClicked = !dropDownClicked;
+  };
+
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container fluid>
@@ -48,7 +53,6 @@ const CustomNavbar = () => {
               id="avatar"
               responsive="true"
             />
-
             <NavDropdown id="collasible-nav-dropdown">
               <div>
                 <Image
@@ -56,14 +60,23 @@ const CustomNavbar = () => {
                   alt="logo"
                   id="avatar"
                   responsive="true"
+                  className="pl-2"
                 />
-                <span>Alexis</span>
+                <span className=" pl-2 ">Alexis</span>
               </div>
-              <NavDropdown.Item href="#">Manage Profiles</NavDropdown.Item>
-              <NavDropdown.Item href="#">Account</NavDropdown.Item>
-              <NavDropdown.Item href="#">Help Center</NavDropdown.Item>
+              <NavDropdown.Item href="#" className=" px-2 ">
+                Manage Profiles
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#" className=" px-2 ">
+                Account
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#" className=" px-2 ">
+                Help Center
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#">Signout Netflix</NavDropdown.Item>
+              <NavDropdown.Item href="#" className=" px-2 ">
+                Signout Netflix
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
