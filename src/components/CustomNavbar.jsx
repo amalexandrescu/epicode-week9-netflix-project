@@ -62,19 +62,19 @@ const CustomNavbar = () => {
                   responsive="true"
                   className="pl-2"
                 />
-                <span className=" pl-2 ">Alexis</span>
+                <span className=" pl-2 text-light">Alexis</span>
               </div>
-              <NavDropdown.Item href="#" className=" px-2 ">
+              <NavDropdown.Item href="#" className=" px-2 text-light">
                 Manage Profiles
               </NavDropdown.Item>
-              <NavDropdown.Item href="#" className=" px-2 ">
+              <NavDropdown.Item href="#" className=" px-2 text-light">
                 Account
               </NavDropdown.Item>
-              <NavDropdown.Item href="#" className=" px-2 ">
+              <NavDropdown.Item href="#" className=" px-2 text-light">
                 Help Center
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#" className=" px-2 ">
+              <NavDropdown.Item href="#" className=" px-2 text-light">
                 Signout Netflix
               </NavDropdown.Item>
             </NavDropdown>

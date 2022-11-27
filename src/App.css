@@ -77,6 +77,8 @@ body {
   width: 99%;
   transition: 0.3s;
   opacity: 0.7;
+  height: 135px;
+  object-fit: cover;
 }
 
 #avatar {
@@ -99,17 +101,7 @@ body {
   background-color: black !important;
 }
 
-/* #dropdown-list {
-  position: absolute;
-  left: -100px;
-} */
-
-/* /* .dropdown-menu {
-  margin-left: -100px;
-  background-color: black;
-} */
-
-/* .dropdown-menu {
-  margin-left: -100px;
-  background-color: black;
-} */
+.dropdown-menu {
+  margin-left: -130px !important;
+  background-color: black !important;
+}
