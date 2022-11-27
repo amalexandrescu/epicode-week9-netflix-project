@@ -3,7 +3,7 @@ import MyFooterColumn from "./MyFooterColumns";
 
 const MyFoter = () => {
   return (
-    <Container>
+    <Container className="mb-2">
       <footer>
         <Row>
           <MyFooterColumn />

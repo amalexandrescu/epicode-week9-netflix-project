@@ -1,9 +1,8 @@
-import { DropdownButton, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 
 const ContentPresentation = () => {
   return (
-    // <Container fluid>
     <div className="genre-details">
       <div className="d-flex">
         <h3 className="text-light mr-5">TV Shows</h3>
@@ -14,12 +13,6 @@ const ContentPresentation = () => {
           Genres
           <Icon.CaretDownFill />
         </Button>
-        {/* <DropdownButton
-          variant="outline-light"
-          title="Genres"
-          className="buttons-from-presentation-content"
-        ></DropdownButton> */}
-        {/* <Button variant="outline-secondary">Button</Button> */}
       </div>
       <div className="btn-group me-2">
         <Button
@@ -36,7 +29,6 @@ const ContentPresentation = () => {
         </Button>
       </div>
     </div>
-    // </Container>
   );
 };
 

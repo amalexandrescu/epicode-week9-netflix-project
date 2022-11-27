@@ -1,6 +1,6 @@
-import { Col, ListGroup, Button } from "react-bootstrap";
+import { Col, Button } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
-import MyFooterList from "./MyFooterLIst";
+import MyFooterList from "./MyFooterList";
 const MyFooterColumn = () => {
   return (
     <div className="d-flex w-100">

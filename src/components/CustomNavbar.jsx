@@ -1,24 +1,9 @@
-import {
-  Navbar,
-  Container,
-  Nav,
-  NavDropdown,
-  Image,
-  Dropdown,
-  DropdownButton,
-  SplitButton,
-  ButtonGroup,
-} from "react-bootstrap";
+import { Navbar, Container, Nav, NavDropdown, Image } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 import netflixLogo from "../assets/netflix_logo.png";
 import accountPhoto from "../assets/avatar.png";
 
 const CustomNavbar = () => {
-  let dropDownClicked = false;
-  const showDropDownList = () => {
-    dropDownClicked = !dropDownClicked;
-  };
-
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container fluid>

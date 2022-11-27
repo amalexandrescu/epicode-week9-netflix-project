@@ -1,6 +1,5 @@
 import { Component } from "react";
 
-//it has a props called currentMovieObj which contains an obj with a movie details
 class SingleMovie extends Component {
   render() {
     return (
